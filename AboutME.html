@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <script>
+        function showText(cityId) {
+            document.getElementById("Japan").style.display = "none";
+            document.getElementById("Vietnam").style.display = "none";
+            document.getElementById("HongKong").style.display = "none";
+            document.getElementById("Singapore").style.display = "none";
+            document.getElementById("WestPapua").style.display = "none";
+            document.getElementById("Indonesia").style.display = "none";
+            document.getElementById("Perth").style.display = "none";
+            document.getElementById("Sydney").style.display = "none";
+            document.getElementById("NewZealand").style.display = "none";
+            document.getElementById(cityId).style.display = 'block';
+        }
+    </script>
+</head>
 
+
+<body>
+    <h1>Hello! I'm Kevin Tirta</h1>
+    <p>I am a Mechanical engineering and Computer science (security) student in my third year of study</p>
+    <p>soo around the world Huh?</p>
+
+    <p>This is a bit about me and my journey of learning how to build a website as well</p>
+    <p>Please take the time to look around this as much as you can (if you have the time) I have never done this before and it has taken me a very long time to make</p>
+    <p>My first ever image will be below this line of text</p>
+
+    <p>okay wait hodl on the process of getting a personal image on the website is wayy harder than I thought this tutorial on stack overflow will clutch up tho</p>
+    <p>forgive the image I only have a laptop and a dream. Wait nvm it was actually quite easy</p>
+
+    <h2>Click a city to learn more:</h2>
+
+    
+    <div style="position: relative; display: inline-block;">
+        <img src="picture of the world.jpg" alt="A picture of the world" width="1000">
+
+        <button style="position: absolute; top: 60%; left: 75%;" onclick="showText('Indonesia')">Indonesia</button>
+        <button style="position: absolute; top: 73%; left: 86%;" onclick="showText('Sydney')">Sydney</button>
+        <button style="position: absolute; top: 73%; left: 75%;" onclick="showText('Perth')">Perth</button>
+        <button style="position: absolute; top: 56%; left: 83%;" onclick="showText('WestPapua')">West Papua</button>
+        <button style="position: absolute; top: 50%; left: 73%;" onclick="showText('Singapore')">Singapore</button>
+        <button style="position: absolute; top: 46%; left: 75%;" onclick="showText('HongKong')">Hong Kong</button>
+        <button style="position: absolute; top: 40%; left: 76%;" onclick="showText('Vietnam')">Vietnam</button>
+        <button style="position: absolute; top: 30%; left: 82%;" onclick="showText('Japan')">Japan</button>
+        <button style="position: absolute; top: 80%; left: 90%;" onclick="showText('NewZealand')">New Zealand</button>
+    </div>
+
+    <p id="Japan" style="display: none;">Its currently 1:45am in Japan on the 13th of Feb I am around the world right now coding this up with 0 experience after a day of hitting the slopes and running around for food. Is that a good interpretation of around the world</p>
+    <p id="Vietnam" style="display: none;">My oh my, possibly my favourite holiday destination ever, the food, the people, the memories. I owe this country another visit and have many stories to tell</p>
+    <p id="Indonesia" style="display: none;">Indonesia, my blood runs red and white despite being born in Australia. Many times I have visited multiple cities of this nation, seen the traps and the castles and everything in between. <br>
+         I can sort of speak the language and many of my extended family still live here</p>
+    <p id="HongKong" style="display: none;">Hong Kong. Not much to say, I went here on a holiday when I was little and I dont remember a whole lot. <br>
+        Dont want to seem ungrateful though travelling is a blessing and the fact that I even had the opportunity to have done so is something many others around teh world have not been able to</p>
+    <p id="Singapore" style="display: none;"> Good cheap food, I have a tale of how I nearly got stuck in the country illegally for three days on my way to Vietnam. This was definetely one of the worst moments in my life</p>
+    <p id="WestPapua" style="display: none;">I have not been here yet but will be in a couple weeks. In my life God comes first. He has provided everything for me, soon I am heading to West Papua to help those less fortunate at some orphanages, villages and churches. Ill make mistakes sometimesin life but Jesus got my back. </p>
+    <p id="Perth" style="display: none;">Perth: Perrrrrtththhhhhhh <br>
+        Perth is my home town, I grew up in Perth. Went to Primary and Highschool there as well as meeting some of the greatest people of all time <br>
+        Back at home I used to have hobbies of playing high level sport and I used to make wooden furniture for fun<br>>
+        Greatest city of all time, it is so peaceful, no tolls and you can really jsut do what you want when you want.</p>
+    <p id="Sydney" style="display: none;">Moved to Sydney by myself to go and study at UNSW, I live in an apartment in maroubra and this city has really been amazing <br>
+        I spend many days working for the airports, I enjoy what I do and I get paid, and thus I can survive hahahaha. however in the theme of around the world, the money that Ive been able to save has been able to let me travel. <br>
+        I have joined many communities and made friends with so many different people of different ages in different settings <br>
+        currently in uni I have done the courses: comp1511 comp1521 comp1531 comp2511 comp2521 math1141 math1231 phys1131 elec1111 engg1300 mman1130 desn1000 desn2000 math2018 engg2400 engg2500 mman2300 math2089 <br>
+        I was in digisoc hr last year that was pre chill and attended cbs as well as social sport at uni, Im not at uni often because of work but I fit as much as possible in the time I am in <br>
+        I'm excited to see where the next 3 and a bit years of my life in sydney lead me. </p>
+    <p id="NewZealand" style="display: none;">I have not been here yet. I want to travel here this year if I get the time and the funds to meet one of my best friends but we shall see</p>
+
+
+
+    <h2>okay time to insert buttons</h2>
+    <p>but before that, a bit more about me</p>
+    <p>I love soccer and basketball and I also watch them a lot</p>
+    <p>I also love music, I used to play in a band as a drummer and I was in orchestras however I also like to pick up other instruments and listen to a bunch of music</p>
+    <p>Hard coding is great... however now I will figure out how to hide my button outputs so it doesnt stack up.this part took so long </p>
+
+    <h2> Adding pictures?</h2>
+
+</body>
+</html>

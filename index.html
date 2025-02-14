@@ -22,6 +22,10 @@
 
 
 <body>
+    <a id="theTop" href="#" onclick="document.getElementById('MyInterests').scrollIntoView({ behavior: 'smooth'});">My Interests</a> <br>
+    <a href="#" onclick="document.getElementById('MyExperience').scrollIntoView({ behavior: 'smooth'});">My Experience</a> <br>
+    <a href="#" onclick="document.getElementById('TheScroll').scrollIntoView({ behavior: 'smooth'});">Around the World (Across the page)</a> <br>
+
     <h1>Hello! I'm Kevin Tirta</h1>
     <p>I am a Mechanical engineering and Computer science (security) student in my third year of study</p>
     <p>soo around the world Huh?</p>
@@ -71,7 +75,8 @@
 
     <hr>
 
-    <h2>okay time to insert buttons</h2>
+
+    <h2 id="MyInterests">okay time to insert buttons</h2>
     <p>but before that, a bit more about my interests alongside some more images</p>
     <img src="harrison barnes.jpeg" alt="Harrison Barnes" style="width: 200px; height: auto; border: 5px solid rgb(91, 26, 107);">
     <p>I love soccer and basketball and I also watch them a lot. My faviourite team is the sacramento Kings and I love Harrison Barnes like a lot</p>
@@ -83,7 +88,7 @@
     <p>Hard coding is great... however now I will figure out how to hide my button outputs so it doesnt stack up.this part took so long </p>
     
     
-    <h2> learning to change font colours and sizes</h2>
+    <h2 id="MyExperience"> learning to change font colours and sizes</h2>
     <p style="font-size: 2rem; color: #FF0000">My experience</p>
     <p style="font-size: 1.7rem; color: #00FF00">   - I currently work in the airport technics arm of Amadeus a large tech company that manages the global travel industry</p>
     <p style="font-size: 1.4rem; color: #0000FF">   - I am quite proficient at fusion360 and solidworks, I also own a 3d printer</p>
@@ -91,6 +96,19 @@
     <p style="font-size: 0.8rem; color: #a48ec7">   - Represented UNSW in unisport as a player / coach for futsal</p>
 
 
+    <h2 id="TheScroll"> Navigating around the world involves travel. What better way to travel around the page than with scrolling into view.</h2>
+    <p>This is like the equivalent of moving across a country by car, train or by walking</p>
+    <a href="#" onclick="document.getElementById('theTop').scrollIntoView({ behavior: 'smooth'});">Click Here to go to the top</a> <br>
+
+    <p>The next and final challenge for me is to get some planes going.</p>
+    <p>We need to move across the website to different pages like moving across countries.</p>
+    <h2 id="nextpage"> Travelling to another page</h2>
+    <a href="pageTwo.html">Click here to go to another page</a>
+
+
+    <hr>
+    <p> For those who don't play soccer, this trick is called "around the world" I can sometimes do it but alas I don't have a ball here with me</p>
+    <img src="around-the-world-trick.gif" alt="around the world" style=" display: block; margin: auto; width:fit-content">
 </body>
 </html>
 
